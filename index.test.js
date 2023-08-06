@@ -21,7 +21,7 @@ test('should highlight words correctly in the HTML content', () => {
       expect(highlightedContent).toBe(expectedHighlightedContent);
     });
   
-    test('should handle empty input gracefully', () => {
+    test('Handel Empty Input', () => {
       const htmlContent = '';
       const plainText = '';
       const plainTextPositions = [];
